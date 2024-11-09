@@ -1000,7 +1000,9 @@ body {
   .navbar-item:last-child { border: none; }
 
   .navbar-list { display: flex; }
-
+.LogPc{
+  display: none;
+}
   .header .btn {
     display: grid;
     text-align: center;
