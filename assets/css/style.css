@@ -166,8 +166,8 @@ html {
   scroll-behavior: smooth;
 }
 #background-video {
-  height: 102vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
   position: absolute;
   left: 0;
@@ -208,6 +208,7 @@ body {
 .has-after {
   position: relative;
   z-index: 1;
+  
 }
 
 .has-before::before,
@@ -425,6 +426,7 @@ body {
 .hero {
   padding-block-start: 170px;
   text-align: center;
+  
 }
 
 .hero .section-subtitle { letter-spacing: 5px; }
@@ -444,7 +446,7 @@ body {
 
 .hero-banner {
   position: relative;
-  margin-block-start: 50px;
+  margin-block-start: 35px;
 }
 
 .hero-banner-bg { display: none; }
@@ -621,9 +623,9 @@ body {
 .news-card .card-title:is(:hover, :focus-visible) { background-size: 100% 4px; }
 
 .news-card .link {
+  margin: auto;
   max-width: max-content;
   margin-block-start: 15px;
-  padding-inline-start: 30px;
   transition: var(--transition-1);
   display: flex;
   align-items: center;
@@ -792,7 +794,6 @@ body {
     width: 100%;
     margin-inline: auto;
   }
-
 
 
   /**
@@ -981,7 +982,7 @@ body {
 
   .h2 { line-height: 1.1; }
 
-
+ 
 
   /**
    * HEADER

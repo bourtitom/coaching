@@ -1,0 +1,143 @@
+.BGLogin{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    border-radius: 24px;
+    display: flex;
+}
+.FLeft{
+    width: 50%;
+}
+.FRight{
+    width: 50%;
+    background: url(../images/bg.jpg);    
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 24px 24px 0;
+}
+#FLogin{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10%;
+    width: 60%;
+    color: black;
+
+}
+.contInput{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+#FLogin input{
+    margin: 10px 0;
+    padding:  10px 10px 10px 40px;
+    border-radius: 8px;
+    outline: none;
+    background-color: #F0EDFF;
+}
+#FLogin button{
+    clip-path: var(--clip-path-2);
+    border-radius: 27px;
+    margin-top: 10px;
+} 
+
+.ii{
+font-size: 3rem;
+position: absolute;
+margin-left: 5px;
+color: #B3B3B3;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #F0EDFF;
+  }
+  
+  .separator:not(:empty)::before {
+    margin-right: .25em;
+  }
+  
+  .separator:not(:empty)::after {
+    margin-left: .25em;
+  }
+  .IBB{
+    font-weight: bold;
+    display: inline-block;
+  }
+
+
+  .BtnAnoCo{
+    border: solid 1px #F0EDFF;
+    display: flex;
+    border-radius: 27px;
+    padding: 10px 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+.BtnAnoCo img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.anoLink{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    margin-bottom: 10px;
+}
+.anoLink a{
+    transition: 1s;
+}
+.anoLink a:hover{
+font-size: 2rem;
+}
+.hero{
+    padding-bottom: 5%;
+    padding-block-start: 145px;
+}
+
+/* Responsive */
+
+@media (max-width: 575px) {
+
+ .FLeft{
+    width: 100%;
+ }
+ .FRight{
+    display: none;
+ }
+ #FLogin{
+    padding: 10% 0;
+    width: 90%;
+    margin: auto;
+ }
+ .hero{
+    padding-bottom: 20%;
+    padding-block-start: 145px;
+}
+}
+
+@media (max-width: 1075px) {
+
+  
+    #FLogin{
+       padding: 10% 0;
+       width: 90%;
+       margin: auto;
+    }
+    .hero{
+       padding-bottom: 20%;
+       padding-block-start: 145px;
+   }
+   }
